@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seguridad en Redes Sociales - Seguridad en Línea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Reset de CSS para asegurar consistencia entre navegadores -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        header h1 {
+            color: #fdfdfd;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #faf8f8;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px 0;
+        }
+        .tip {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .tip h2 {
+            color: #fafafa;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .tip p {
+            text-align: justify;
+            color: #080c24;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Seguridad en Redes Sociales</h1>
+            <div class="menu-toggle">☰<i class="fas fa-bars"></i></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="general_tips.html">Consejos Generales</a></li>
+                    <li><a href="password_protection.html">Protección de Contraseñas</a></li>
+                    <li><a href="social_media.html">Seguridad en Redes</a></li>
+                    <li><a href="malware_protection.html">Protección contra Malware</a></li>
+                    <li><a href="resources.html">Recursos y Enlaces</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="tip">
+                <h2>Revisa y Ajusta la Configuración de Privacidad</h2>
+                <p>Regularmente revisa y ajusta la configuración de privacidad en tus perfiles de redes sociales para controlar quién puede ver tu información personal y qué contenido compartes públicamente.</p>
+            </div>
+            <div class="tip">
+                <h2>Evita Compartir Información Sensible</h2>
+                <p>No compartas información sensible en tus publicaciones, como tu dirección, número de teléfono o detalles financieros. Mantén tu información personal privada para protegerte contra el robo de identidad y otros riesgos.</p>
+            </div>
+            <div class="tip">
+                <h2>Sospecha de Solicitudes de Amistad y Mensajes Extraños</h2>
+                <p>Sé cauteloso al aceptar solicitudes de amistad o mensajes de personas que no conoces en las redes sociales. Podrían ser perfiles falsos o personas con intenciones maliciosas.</p>
+            </div>
+            <div class="tip">
+                <h2>Utiliza Contraseñas Fuertes y Únicas</h2>
+                <p>Crea contraseñas robustas para tus cuentas de redes sociales y evita usar la misma contraseña en múltiples plataformas. Utiliza combinaciones de letras, números y caracteres especiales para mayor seguridad.</p>
+            </div>
+            <div class="tip">
+                <h2>Educa a Tus Amigos y Familiares</h2>
+                <p>Comparte consejos de seguridad en redes sociales con tus amigos y familiares para ayudarles a protegerse también. Educar a otros sobre las mejores prácticas puede ayudar a prevenir el robo de identidad y otros problemas.</p>
+            </div>
+            <div class="tip">
+                <h2>Configura la Verificación de Inicio de Sesión</h2>
+                <p>Activa la verificación de inicio de sesión en tus cuentas de redes sociales siempre que sea posible. Esto añade una capa adicional de seguridad al requerir un código de verificación además de tu contraseña para acceder a tu cuenta desde un nuevo dispositivo o navegador.</p>
+            </div>
+            <div class="tip">
+                <h2>Mantén Actualizadas Tus Aplicaciones de Redes Sociales</h2>
+                <p>Asegúrate de tener instaladas las últimas versiones de las aplicaciones de redes sociales en tus dispositivos. Las actualizaciones a menudo contienen parches de seguridad importantes que protegen contra vulnerabilidades conocidas.</p>
+            </div>
+            <img src="images/redes.jpeg" alt="Protección contra Malware">
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seguridad en Línea</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script>
+        // JavaScript para activar y desactivar el menú toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
